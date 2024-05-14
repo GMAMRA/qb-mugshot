@@ -38,36 +38,3 @@ qb-mugshot is a mugshot system for use with QB servers to allow players to take 
 		distance = 2.0,
 	},
 ```
-
-<h1>FEATURES</h1>
-
-- Teleports player into correct area
-- All client sided to improve performance
-- Mugshot Board with players information on
-- Automatically takes and uploads the images to a discord webhook
-- Highly configurable
-- Supports all MLOs via the config also has an option for no MLO's which TP's suspects to an IPL and back
-- QB Callback to request latest mugshots on that session for a citizenID
-
-
-<h2>NOTE</h2>
-The config option Config.CQCMDT is built in for future releases from CQC. We might release the MDT we are working on. If you want to pull the images into an existing MDT system this config option simply creates a server object with the citizenid and the images urls which can be pulled on demand.
-
-<h2>IMAGES</h2>
-
-![screenshot](https://user-images.githubusercontent.com/32689432/143718564-8941f692-4c04-42e2-9ea2-41629236552b.jpg)
-![screenshot (1)](https://user-images.githubusercontent.com/32689432/143718578-43d855e3-d705-4d40-80be-28d098e2467f.jpg)
-![screenshot (2)](https://user-images.githubusercontent.com/32689432/143718597-fed1251e-d855-449a-ad13-dd7990057dab.jpg)
-
-
-**CREDIT**
------
-Lassemc475 - https://github.com/Lassemc475/fivem-scripts/tree/master/vrp/lmc_mugshot
-Used for understanding how the mugshot board works
-
-**DEPENDENCIES**
------
-
-- QBCore - https://github.com/qbcore-framework
-- QB-Target - https://github.com/BerkieBb/qb-target
-- screenshot-basic - https://github.com/citizenfx/screenshot-basic
